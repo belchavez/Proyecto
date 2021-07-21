@@ -1,0 +1,77 @@
+.header{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background: #000000;
+
+    h3{
+        color: #ffffff;
+        font-size: 1.2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        letter-spacing: 5px;
+        animation-duration: 2s;
+        animation-name: titulo;
+    }
+    @keyframes titulo {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+    }
+    .cuotas{
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+        word-spacing: 5px;
+        
+    }
+    .logo{
+        width: 50px;
+        border-radius: 10px;
+        width: 10%;
+    }
+    div{
+        .buscar{
+            width: 500px;
+            height: 40px;
+            border-radius: 10px;
+            border:  1px solid;
+        }
+        button{
+
+            margin: 10px;
+        }
+    }
+    .menuPrincipal{
+        background-color: #ffffff;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 35px;
+        word-spacing: 20px;
+        a{
+    
+            color: black;
+            text-decoration: none;
+            font-weight:  bold;
+            letter-spacing: 5px;
+        }
+            ul li {
+            display: inline-block;
+            text-align: center;
+        }
+        ul ul {
+            position: absolute;
+            display: none;
+        }
+            ul li:hover ul {
+            display: block;
+        }
+    }
+    
+}
