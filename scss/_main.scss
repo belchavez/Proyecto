@@ -1,73 +1,107 @@
+
 .gridMain{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,1fr);
-    grid-template-areas:"opciones productos productos"
-                        "opciones productos productos"
-                        "promo    promo     promo";
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas:"opciones productos productos productos"
+                        "opciones productos productos productos"
+                        "opciones productos productos productos"
+                        "promo    promo     promo     promo";
                                              
     height: 100vh;
+    
+    
+    
 
 
     .opcionesMenu{
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-direction: row;
+        justify-content: flex-start;
         grid-area:opciones;
-        color: white;
-        margin: 10px;      
-        ul li{            
-                display: flex;
-                flex-direction:column;
-                align-items: flex-start;
-                padding: 5px;
+        color:#000000;
+        margin: 0.625rem;
+        
+        form{
+            label{
+                font-weight: bold;
             }
+            .subMenu{
+                margin: 0.625rem;
+
+            }
+            
+        }      
+        
     }
    
         
     .catalogo{
 
 
-        color: white;
+        color: #000000;
         display: flex;
         justify-content: center;
         flex-wrap: wrap; 
         grid-area:productos ; 
-        margin: 5px;
-        border: 10px;
+        margin: 0.625rem;
         .producto{
-
             width:20% ;
+            img{
+                margin:0.625rem;
+                height: 11.25rem;
+            }
+            
        }
+
     }
     .promocion{
-        background-image:url(https://diarioprimerahora.com/images/2021-03-22/GGT44AEIIBHXPI5FSKI6UC5UD4.jpg);
+        height: 12.5rem ;
+        margin-top: 6.25rem;
+        background-color: #76bad5;
         grid-area:promo;
-        padding: 10px;
+        padding: 0.625rem;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: row;
-        h4{
-            width: 50%;
-            color:white;
-        }
-    }
-    .promocion{
-        background-image:url(https://diarioprimerahora.com/images/2021-03-22/GGT44AEIIBHXPI5FSKI6UC5UD4.jpg);
-        grid-area:promo;
-        padding: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        h3{
+        justify-content: space-between;
+        align-items: center;
+        
+
+        
+        h1{
             color: white;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family: 'Bebas Neue', cursive;
             letter-spacing: 5px;
-            width: 60%;
+            padding:1.25rem ;
+            width: 40%;
         }
-        h4{
-            width: 50%;
+        p{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            width: 10%;
             color:white;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            margin: 0.625rem;
+        }
+        button{
+            font-family: 'Roboto', sans-serif;
+            width: 10%;
+            padding: 0.625rem;
         }
     }
+}
+.afa{
+    width: 9.375rem;
+}
+.camiseta{
+    width: 11.25rem;
+    border-radius: 50%;
+    
+}
+.adidas{
+    width: 9.375rem;
+    
+}
+.logo{
+    width: 3.125rem;
 }

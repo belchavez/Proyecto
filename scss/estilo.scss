@@ -2,23 +2,26 @@
 @import "main";
 @import "footer";
 
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background: rgb(73,9,68);
-    background: linear-gradient(0deg, rgba(73,9,68,1) 15%, rgba(0,0,0,1) 100%);
+    background-color: #ffffff;
+    
+}
+@media only screen and (min-width: 576px){
+    
+
+}
+
+@media only screen and (min-width: 768px){
+
 }
 
 
-.jordanLow{
-    width: 150px;
-    
-    
-}
                        
 
 
