@@ -1,0 +1,150 @@
+.formulario{
+    font-family: 'Roboto', sans-serif;
+    margin: 3.125rem;
+    padding-left: 31.25rem;
+    .boton{
+        border: #ffffff;
+        background-color: #000000;
+    }
+
+
+}
+
+.completar{
+    width: 50%;
+}
+
+.consultas{
+    height: 12.5rem;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    .titulo{
+        margin-top: 0.625rem;
+        text-align: center;
+        width: 100%;
+    }
+    .logo2{
+        margin: 1.25rem;
+        width: 9.375rem;
+    }
+    i{
+        margin-right: 0.625rem;
+        padding:0.625rem;
+        font-size: 0.938rem;
+        border-radius: 0.625rem;
+    }
+    .icon-wpp{
+        background-color: #45ea62;
+        color: white;
+    }
+    .icon-tel{
+        background-color: white;
+        color: #ca0000;
+        
+
+    }
+    .icon-mail{
+        color:white;
+        background-color: #1c7ff3;
+    }
+    h3{
+        width: 20%;
+        margin-top: 0.625rem;
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .formulario{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding-left:5rem;
+        .boton{
+            border: #ffffff;
+            background-color: #000000;
+            margin: 10px;
+        }
+    
+    
+    }
+    .completar{
+        width: 80%;
+    }
+    .consultas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        .logo2{
+            
+            display: none;
+        }
+        i{
+            width: 30px;
+            margin-left: 5px;
+            margin-right:0px;
+            padding:0px;
+            text-align:center ;
+            font-size: 1.25rem;
+        }
+        h3{
+            width: 150px;
+            margin-top: 0px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+    }
+    
+
+}
+
+@media only screen and (min-width: 578px) and (max-width: 768px){
+    .formulario{
+        font-family: 'Roboto', sans-serif;
+        margin: 0px;
+        padding-left:5rem;
+        .boton{
+            border: #ffffff;
+            background-color: #000000;
+            margin: 10px;
+        }
+    
+    
+    }
+    .completar{
+        width: 80%;
+    }
+    .consultas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        .logo2{
+            
+            display: none;
+        }
+        i{
+            width: 30px;
+            margin-left: 5px;
+            margin-right:0px;
+            padding:0px;
+            text-align:center ;
+            font-size: 1.25rem;
+        }
+        h3{
+            width: 150px;
+            margin-top: 0px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+    }
+
+}
